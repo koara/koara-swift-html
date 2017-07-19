@@ -1,4 +1,4 @@
-workspace 'Koara'
+workspace 'KoaraHtml'
 
 target 'KoaraHtml iOS' do
   use_frameworks!
