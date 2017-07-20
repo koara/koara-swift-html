@@ -74,8 +74,8 @@
 		A174DEFC1F1DB57900F3D593 = {
 			isa = PBXGroup;
 			children = (
-				A174DF081F1DB57900F3D593 /* KoaraHtml */,
-				A174DF131F1DB57900F3D593 /* KoaraHtmlTests */,
+				A174DF081F1DB57900F3D593 /* Source */,
+				A174DF131F1DB57900F3D593 /* Tests */,
 				A174DF071F1DB57900F3D593 /* Products */,
 				6010F024876971E0492B7F18 /* Pods */,
 				C95C31442B533F5EFD1A0AB3 /* Frameworks */,
@@ -91,21 +91,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A174DF081F1DB57900F3D593 /* KoaraHtml */ = {
+		A174DF081F1DB57900F3D593 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				A174DF091F1DB57900F3D593 /* KoaraHtml.h */,
 				A174DF0A1F1DB57900F3D593 /* Info.plist */,
 			);
+			name = Source;
 			path = KoaraHtml;
 			sourceTree = "<group>";
 		};
-		A174DF131F1DB57900F3D593 /* KoaraHtmlTests */ = {
+		A174DF131F1DB57900F3D593 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A174DF141F1DB57900F3D593 /* KoaraHtmlTests.swift */,
 				A174DF161F1DB57900F3D593 /* Info.plist */,
 			);
+			name = Tests;
 			path = KoaraHtmlTests;
 			sourceTree = "<group>";
 		};

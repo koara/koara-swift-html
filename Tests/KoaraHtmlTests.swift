@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Koara
 
 class KoaraHtmlTests: XCTestCase {
     
