@@ -3,9 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
+	<dict>
+		<key>KoaraHtml iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A16828951F259E1E00AC6BA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A168289D1F259E1E00AC6BA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A174DF051F1DB57900F3D593</key>
 		<dict>
 			<key>primary</key>
