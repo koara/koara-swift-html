@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A168289F1F259E1E00AC6BA7 /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16828961F259E1E00AC6BA7 /* KoaraHtml.framework */; };
-		A16828A41F259E1E00AC6BA7 /* KoaraHtml_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16828A31F259E1E00AC6BA7 /* KoaraHtml_iOSTests.swift */; };
-		A16828A61F259E1E00AC6BA7 /* KoaraHtml iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A16828981F259E1E00AC6BA7 /* KoaraHtml iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16828AE1F25A02F00AC6BA7 /* ComplianceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A7C6C1F2264FD0084BDE5 /* ComplianceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +23,10 @@
 
 /* Begin PBXFileReference section */
 		A16828961F259E1E00AC6BA7 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16828981F259E1E00AC6BA7 /* KoaraHtml iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KoaraHtml iOS.h"; sourceTree = "<group>"; };
-		A16828991F259E1E00AC6BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16828981F259E1E00AC6BA7 /* KoaraHtml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KoaraHtml.h; path = "Source/KoaraHtml.h"; sourceTree = SOURCE_ROOT; };
+		A16828991F259E1E00AC6BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "Source/Info.plist"; sourceTree = SOURCE_ROOT; };
 		A168289E1F259E1E00AC6BA7 /* KoaraHtml.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoaraHtml.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16828A31F259E1E00AC6BA7 /* KoaraHtml_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoaraHtml_iOSTests.swift; sourceTree = "<group>"; };
-		A16828A51F259E1E00AC6BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16828A51F259E1E00AC6BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "../KoaraHtml Tests/Info.plist"; sourceTree = "<group>"; };
 		A17A7C6A1F225CAB0084BDE5 /* Html5Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Html5Renderer.swift; path = Source/Html5Renderer.swift; sourceTree = SOURCE_ROOT; };
 		A17A7C6C1F2264FD0084BDE5 /* ComplianceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComplianceTest.swift; path = Tests/ComplianceTest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -55,19 +53,8 @@
 		A16828971F259E1E00AC6BA7 /* KoaraHtml iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A16828981F259E1E00AC6BA7 /* KoaraHtml iOS.h */,
-				A16828991F259E1E00AC6BA7 /* Info.plist */,
 			);
 			path = "KoaraHtml iOS";
-			sourceTree = "<group>";
-		};
-		A16828A21F259E1E00AC6BA7 /* KoaraHtml iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				A16828A31F259E1E00AC6BA7 /* KoaraHtml_iOSTests.swift */,
-				A16828A51F259E1E00AC6BA7 /* Info.plist */,
-			);
-			path = "KoaraHtml iOSTests";
 			sourceTree = "<group>";
 		};
 		A174DEFC1F1DB57900F3D593 = {
@@ -78,13 +65,14 @@
 				A16828961F259E1E00AC6BA7 /* KoaraHtml.framework */,
 				A16828971F259E1E00AC6BA7 /* KoaraHtml iOS */,
 				A168289E1F259E1E00AC6BA7 /* KoaraHtml.xctest */,
-				A16828A21F259E1E00AC6BA7 /* KoaraHtml iOSTests */,
 			);
 			sourceTree = "<group>";
 		};
 		A174DF081F1DB57900F3D593 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A16828981F259E1E00AC6BA7 /* KoaraHtml.h */,
+				A16828991F259E1E00AC6BA7 /* Info.plist */,
 				A17A7C6A1F225CAB0084BDE5 /* Html5Renderer.swift */,
 			);
 			name = Source;
@@ -94,6 +82,7 @@
 		A174DF131F1DB57900F3D593 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				A16828A51F259E1E00AC6BA7 /* Info.plist */,
 				A17A7C6C1F2264FD0084BDE5 /* ComplianceTest.swift */,
 			);
 			name = Tests;
@@ -107,7 +96,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16828A61F259E1E00AC6BA7 /* KoaraHtml iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16828A41F259E1E00AC6BA7 /* KoaraHtml_iOSTests.swift in Sources */,
+				A16828AE1F25A02F00AC6BA7 /* ComplianceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +231,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "KoaraHtml iOS/Info.plist";
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeaddslife.koara.KoaraHtml-iOS";
@@ -262,7 +250,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "KoaraHtml iOS/Info.plist";
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeaddslife.koara.KoaraHtml-iOS";
@@ -276,7 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 33THKT24T3;
-				INFOPLIST_FILE = "KoaraHtml iOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeaddslife.koara.KoaraHtml-iOSTests";
 				PRODUCT_NAME = KoaraHtml;
@@ -288,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 33THKT24T3;
-				INFOPLIST_FILE = "KoaraHtml iOSTests/Info.plist";
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codeaddslife.koara.KoaraHtml-iOSTests";
 				PRODUCT_NAME = KoaraHtml;
@@ -407,6 +395,7 @@
 				A16828A81F259E1E00AC6BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A16828AC1F259E1E00AC6BA7 /* Build configuration list for PBXNativeTarget "KoaraHtml iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +404,7 @@
 				A16828AA1F259E1E00AC6BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A174DF001F1DB57900F3D593 /* Build configuration list for PBXProject "KoaraHtml" */ = {
 			isa = XCConfigurationList;
