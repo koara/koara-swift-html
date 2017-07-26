@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A168289D1F259E1E00AC6BA7"
-               BuildableName = "KoaraHtml.xctest"
+               BuildableName = "KoaraHtml Tests.xctest"
                BlueprintName = "KoaraHtml iOS Tests"
                ReferencedContainer = "container:KoaraHtml.xcodeproj">
             </BuildableReference>

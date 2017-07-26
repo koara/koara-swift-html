@@ -1,4 +1,4 @@
-/*import Koara
+import Koara
 
 public class Html5Renderer : Renderer {
     
@@ -50,4 +50,4 @@ public class Html5Renderer : Renderer {
     }
 
 }
-*/
+
