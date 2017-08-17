@@ -89,12 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Koara-tvOS/Koara.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koara-tvOS/KoaraHtml.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Nimble-tvOS/Nimble.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Quick-tvOS/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Koara-tvOS/Koara.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koara-tvOS/KoaraHtml.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Nimble-tvOS/Nimble.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Quick-tvOS/Quick.framework"
 fi

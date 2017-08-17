@@ -16,7 +16,7 @@
 		A17C856A1ECDA76700B51055 /* KoaraRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C85681ECDA71E00B51055 /* KoaraRenderer.swift */; };
 		A17C856B1ECDA76B00B51055 /* KoaraRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C85681ECDA71E00B51055 /* KoaraRenderer.swift */; };
 		A17C856C1ECDA76E00B51055 /* KoaraRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C85681ECDA71E00B51055 /* KoaraRenderer.swift */; };
-		A1B7EFA91EAF114500234892 /* Koara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7EFA01EAF114500234892 /* Koara.framework */; };
+		A1B7EFA91EAF114500234892 /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7EFA01EAF114500234892 /* KoaraHtml.framework */; };
 		A1B7EFB71EAF119000234892 /* BlockElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A1E1E16457700419AB4 /* BlockElement.swift */; };
 		A1B7EFB81EAF119000234892 /* BlockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A1F1E16457700419AB4 /* BlockQuote.swift */; };
 		A1B7EFB91EAF119000234892 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A201E16457700419AB4 /* Code.swift */; };
@@ -52,7 +52,7 @@
 		A1B7EFD71EAF119900234892 /* StringReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C363A31E15916300CC1874 /* StringReaderTest.swift */; };
 		A1B7EFD81EAF119900234892 /* End2EndTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CDEBC41E8C08F900101814 /* End2EndTest.swift */; };
 		A1B7EFD91EAF12B300234892 /* Koara.h in Headers */ = {isa = PBXBuildFile; fileRef = A17742B11E1539C100AB88FF /* Koara.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B7EFE81EB0EC0800234892 /* Koara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7EFDF1EB0EC0800234892 /* Koara.framework */; };
+		A1B7EFE81EB0EC0800234892 /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7EFDF1EB0EC0800234892 /* KoaraHtml.framework */; };
 		A1B7F0111EB0EC3100234892 /* CharStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A3E1E1645A200419AB4 /* CharStreamTests.swift */; };
 		A1B7F0121EB0EC3100234892 /* ComplianceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A3F1E1645A200419AB4 /* ComplianceTest.swift */; };
 		A1B7F0131EB0EC3100234892 /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A401E1645A200419AB4 /* Html5Renderer.swift */; };
@@ -88,7 +88,7 @@
 		A1B7F0311EB0EC3700234892 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A131E16454A00419AB4 /* TokenManager.swift */; };
 		A1B7F0321EB0EC3700234892 /* TreeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A141E16454A00419AB4 /* TreeState.swift */; };
 		A1B7F0331EB0ED1D00234892 /* Koara.h in Headers */ = {isa = PBXBuildFile; fileRef = A17742B11E1539C100AB88FF /* Koara.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1B7F0421EB5094A00234892 /* Koara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7F0391EB5094A00234892 /* Koara.framework */; };
+		A1B7F0421EB5094A00234892 /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7F0391EB5094A00234892 /* KoaraHtml.framework */; };
 		A1B7F0501EB50B5300234892 /* BlockElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A1E1E16457700419AB4 /* BlockElement.swift */; };
 		A1B7F0511EB50B5300234892 /* BlockQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A1F1E16457700419AB4 /* BlockQuote.swift */; };
 		A1B7F0521EB50B5300234892 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1008A201E16457700419AB4 /* Code.swift */; };
@@ -227,24 +227,24 @@
 		A1008A411E1645A200419AB4 /* TokenManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenManagerTest.swift; path = Tests/TokenManagerTest.swift; sourceTree = "<group>"; };
 		A17742B11E1539C100AB88FF /* Koara.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Koara.h; path = Source/Koara.h; sourceTree = "<group>"; };
 		A17C85681ECDA71E00B51055 /* KoaraRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KoaraRenderer.swift; path = Source/KoaraRenderer.swift; sourceTree = "<group>"; };
-		A1B7EFA01EAF114500234892 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7EFA01EAF114500234892 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7EFA21EAF114500234892 /* Koara.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Koara.h; sourceTree = "<group>"; };
 		A1B7EFA31EAF114500234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B7EFA81EAF114500234892 /* Koara iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Koara iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7EFAF1EAF114500234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = KoaraTests/Info.plist; sourceTree = "<group>"; };
-		A1B7EFDF1EB0EC0800234892 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7EFDF1EB0EC0800234892 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7EFE11EB0EC0800234892 /* Koara macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Koara macOS.h"; sourceTree = "<group>"; };
 		A1B7EFE21EB0EC0800234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B7EFE71EB0EC0800234892 /* Koara macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Koara macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7EFEC1EB0EC0800234892 /* Koara_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koara_macOSTests.swift; sourceTree = "<group>"; };
 		A1B7EFEE1EB0EC0800234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B7F0391EB5094A00234892 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7F0391EB5094A00234892 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7F03B1EB5094A00234892 /* Koara tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Koara tvOS.h"; sourceTree = "<group>"; };
 		A1B7F03C1EB5094A00234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B7F0411EB5094A00234892 /* Koara tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Koara tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7F0461EB5094A00234892 /* Koara_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koara_tvOSTests.swift; sourceTree = "<group>"; };
 		A1B7F0481EB5094A00234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1B7F0781EB8D5E800234892 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koara.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7F0781EB8D5E800234892 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B7F07A1EB8D5E800234892 /* Koara.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Koara.h; sourceTree = "<group>"; };
 		A1B7F07B1EB8D5E800234892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C3639F1E15915700CC1874 /* Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = Source/Io/Reader.swift; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B7EFA91EAF114500234892 /* Koara.framework in Frameworks */,
+				A1B7EFA91EAF114500234892 /* KoaraHtml.framework in Frameworks */,
 				89B452B263ECD9A19D869616 /* Pods_Koara_iOS_Koara_iOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +293,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B7EFE81EB0EC0800234892 /* Koara.framework in Frameworks */,
+				A1B7EFE81EB0EC0800234892 /* KoaraHtml.framework in Frameworks */,
 				56AF066AD37A2204BA157C46 /* Pods_Koara_macOS_Koara_macOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +310,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B7F0421EB5094A00234892 /* Koara.framework in Frameworks */,
+				A1B7F0421EB5094A00234892 /* KoaraHtml.framework in Frameworks */,
 				31D8FA986F106D420AC6B8DF /* Pods_Koara_tvOS_Koara_tvOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,7 +387,7 @@
 				A1DBE20B1E5423F400BF0BF1 /* testsuite */,
 				A177421A1E14F6C500AB88FF /* Source */,
 				A17742191E14F6BC00AB88FF /* Tests */,
-				A1B7EFA01EAF114500234892 /* Koara.framework */,
+				A1B7EFA01EAF114500234892 /* KoaraHtml.framework */,
 				A1B7EFA11EAF114500234892 /* Koara */,
 				A1B7EFA81EAF114500234892 /* Koara iOS Tests.xctest */,
 				3CA722604AF260482547F479 /* Pods */,
@@ -397,11 +397,11 @@
 				A1B7F0451EB5094A00234892 /* Koara tvOSTests */,
 				A1B7F0791EB8D5E800234892 /* Koara */,
 				213BA9C94934F5E14B899BA8 /* Frameworks */,
-				A1B7EFDF1EB0EC0800234892 /* Koara.framework */,
+				A1B7EFDF1EB0EC0800234892 /* KoaraHtml.framework */,
 				A1B7EFE71EB0EC0800234892 /* Koara macOS Tests.xctest */,
-				A1B7F0391EB5094A00234892 /* Koara.framework */,
+				A1B7F0391EB5094A00234892 /* KoaraHtml.framework */,
 				A1B7F0411EB5094A00234892 /* Koara tvOS Tests.xctest */,
-				A1B7F0781EB8D5E800234892 /* Koara.framework */,
+				A1B7F0781EB8D5E800234892 /* KoaraHtml.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -559,7 +559,7 @@
 			);
 			name = "Koara iOS";
 			productName = Koara;
-			productReference = A1B7EFA01EAF114500234892 /* Koara.framework */;
+			productReference = A1B7EFA01EAF114500234892 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1B7EFA71EAF114500234892 /* Koara iOS Tests */ = {
@@ -600,7 +600,7 @@
 			);
 			name = "Koara macOS";
 			productName = "Koara macOS";
-			productReference = A1B7EFDF1EB0EC0800234892 /* Koara.framework */;
+			productReference = A1B7EFDF1EB0EC0800234892 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1B7EFE61EB0EC0800234892 /* Koara macOS Tests */ = {
@@ -641,7 +641,7 @@
 			);
 			name = "Koara tvOS";
 			productName = "Koara tvOS";
-			productReference = A1B7F0391EB5094A00234892 /* Koara.framework */;
+			productReference = A1B7F0391EB5094A00234892 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A1B7F0401EB5094A00234892 /* Koara tvOS Tests */ = {
@@ -680,7 +680,7 @@
 			);
 			name = "Koara watchOS";
 			productName = Koara;
-			productReference = A1B7F0781EB8D5E800234892 /* Koara.framework */;
+			productReference = A1B7F0781EB8D5E800234892 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

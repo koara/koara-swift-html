@@ -89,12 +89,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Koara-iOS/Koara.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koara-iOS/KoaraHtml.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Nimble-iOS/Nimble.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Quick-iOS/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Koara-iOS/Koara.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koara-iOS/KoaraHtml.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Nimble-iOS/Nimble.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Quick-iOS/Quick.framework"
 fi

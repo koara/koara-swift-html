@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1B7EF9F1EAF114500234892"
-               BuildableName = "Koara.framework"
+               BuildableName = "KoaraHtml.framework"
                BlueprintName = "Koara iOS"
                ReferencedContainer = "container:Koara.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B7EF9F1EAF114500234892"
-            BuildableName = "Koara.framework"
+            BuildableName = "KoaraHtml.framework"
             BlueprintName = "Koara iOS"
             ReferencedContainer = "container:Koara.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B7EF9F1EAF114500234892"
-            BuildableName = "Koara.framework"
+            BuildableName = "KoaraHtml.framework"
             BlueprintName = "Koara iOS"
             ReferencedContainer = "container:Koara.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1B7EF9F1EAF114500234892"
-            BuildableName = "Koara.framework"
+            BuildableName = "KoaraHtml.framework"
             BlueprintName = "Koara iOS"
             ReferencedContainer = "container:Koara.xcodeproj">
          </BuildableReference>

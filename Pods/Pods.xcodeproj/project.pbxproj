@@ -543,7 +543,7 @@
 		0A7C4DD42F282D2985977CB41C63C412 /* TokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = Source/TokenManager.swift; sourceTree = "<group>"; };
 		0AD71651DC41E971AFBAEFF031456ED7 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		0BB5D50CB2B269CF7F5DE97EDCE9F930 /* Pods-KoaraHtml macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoaraHtml macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0C9DE3E824733090516EDB3109932713 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koara.framework; path = "Koara-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C9DE3E824733090516EDB3109932713 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KoaraHtml.framework; path = "Koara-OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8C6FED65201B39C9F654EEC240DD0F /* Strong.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Strong.swift; path = Source/Ast/Strong.swift; sourceTree = "<group>"; };
 		1012647E68FC01E38AD05A72D10F5558 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		1089CD781E4C0080E80327A7E2E7A140 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
@@ -571,7 +571,7 @@
 		247B0A97E51664E96BEBF12502E17E33 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
 		24CCBCCD134A5E71BBFBB239D21CEC4B /* Pods-KoaraHtml macOS-KoaraHtml macOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KoaraHtml macOS-KoaraHtml macOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24D5E02048DD8252E409A5DA2FA08C2E /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
-		2550E014AF3156E4A79D83D89DF35653 /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koara.framework; path = "Koara-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2550E014AF3156E4A79D83D89DF35653 /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KoaraHtml.framework; path = "Koara-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25667F35B7EFC24326E85DBC49EA441F /* Quick-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Quick-iOS-dummy.m"; path = "../Quick-iOS/Quick-iOS-dummy.m"; sourceTree = "<group>"; };
 		2578CECE82B5C9BEAE68D12091F62B4A /* Nimble-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-iOS-umbrella.h"; path = "../Nimble-iOS/Nimble-iOS-umbrella.h"; sourceTree = "<group>"; };
 		27741F662367822A5416B5E02379DB5F /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
@@ -587,7 +587,7 @@
 		35AB2403B70132B2CFE7A72F11F8FCA8 /* Nimble-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-OSX-umbrella.h"; sourceTree = "<group>"; };
 		377ECE0B0FA05A28FC9F552C166501A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Koara-iOS/Info.plist"; sourceTree = "<group>"; };
 		37E36E17D805D082B2AF4E494AACA61C /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
-		3973ADD155C9CD933D74EFCC54CC2D6E /* Koara.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koara.framework; path = "Koara-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3973ADD155C9CD933D74EFCC54CC2D6E /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KoaraHtml.framework; path = "Koara-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3999368402A5A88100B71FC87E4BBF3E /* Nimble-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Nimble-tvOS-prefix.pch"; path = "../Nimble-tvOS/Nimble-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		3C9BA564BCDD9816B14D8380F40C27C4 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		3DE2174D70B0F56A56B21A7C497F6B49 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
@@ -1079,9 +1079,9 @@
 		AF01E484900F5A77A3B819920E9C9309 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C9DE3E824733090516EDB3109932713 /* Koara.framework */,
-				2550E014AF3156E4A79D83D89DF35653 /* Koara.framework */,
-				3973ADD155C9CD933D74EFCC54CC2D6E /* Koara.framework */,
+				0C9DE3E824733090516EDB3109932713 /* KoaraHtml.framework */,
+				2550E014AF3156E4A79D83D89DF35653 /* KoaraHtml.framework */,
+				3973ADD155C9CD933D74EFCC54CC2D6E /* KoaraHtml.framework */,
 				525A35832BA379EA86289543CD31E263 /* Nimble.framework */,
 				5947430D8E5EAAE1021FFF383A599B67 /* Nimble.framework */,
 				EE4B1FC1F0114A21C2FE6A4323B2C09C /* Nimble.framework */,
@@ -1534,7 +1534,7 @@
 			);
 			name = "Koara-OSX";
 			productName = "Koara-OSX";
-			productReference = 0C9DE3E824733090516EDB3109932713 /* Koara.framework */;
+			productReference = 0C9DE3E824733090516EDB3109932713 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3004635B29930E084D411DA2CE640FB2 /* Koara-iOS */ = {
@@ -1551,7 +1551,7 @@
 			);
 			name = "Koara-iOS";
 			productName = "Koara-iOS";
-			productReference = 2550E014AF3156E4A79D83D89DF35653 /* Koara.framework */;
+			productReference = 2550E014AF3156E4A79D83D89DF35653 /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		352042C1F4129787C0908E0A0E457FB8 /* Koara-tvOS */ = {
@@ -1568,7 +1568,7 @@
 			);
 			name = "Koara-tvOS";
 			productName = "Koara-tvOS";
-			productReference = 3973ADD155C9CD933D74EFCC54CC2D6E /* Koara.framework */;
+			productReference = 3973ADD155C9CD933D74EFCC54CC2D6E /* KoaraHtml.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5BD78BB1BE25D236750DB6315B42CA30 /* Pods-KoaraHtml macOS-KoaraHtml macOS Tests */ = {
