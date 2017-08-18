@@ -1,27 +1,27 @@
-workspace 'Koara'
+workspace 'KoaraHtml'
 
-target 'Koara iOS' do
+target 'KoaraHtml iOS' do
   use_frameworks!
 
-  target 'Koara iOS Tests' do
+  target 'KoaraHtml iOS Tests' do
     pod 'Quick'
     pod 'Nimble'
   end
 end
 
-target 'Koara macOS' do
+target 'KoaraHtml macOS' do
   use_frameworks!
 
-  target 'Koara macOS Tests' do
+  target 'KoaraHtml macOS Tests' do
     pod 'Quick'
     pod 'Nimble'
   end
 end
 
-target 'Koara tvOS' do
+target 'KoaraHtml tvOS' do
   use_frameworks!
 
-  target 'Koara tvOS Tests' do
+  target 'KoaraHtml tvOS Tests' do
     pod 'Quick'
     pod 'Nimble'
   end
