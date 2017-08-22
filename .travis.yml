@@ -20,6 +20,8 @@ env:
     - SCHEME="KoaraHtml watchOS"  DESTINATION="platform=watchOS Simulator,OS=3.2,name=Apple Watch - 42mm"   RUN_TESTS="NO"   SEND_TO_COVERALLS="NO"
   before_install:
     - gem install slather
+    - pod repo update
+    - pod install
 
 script:
   - if [ $RUN_TESTS == "YES" ]; then
