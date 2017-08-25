@@ -13,7 +13,7 @@ end
 
 target 'KoaraHtml macOS' do
   use_frameworks!
-  platform :macosx, '10.12'
+  platform :osx, '10.12'
   pod 'Koara', '~> 0.13'
 
   target 'KoaraHtml macOS Tests' do
