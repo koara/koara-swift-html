@@ -1,4 +1,3 @@
-
 import Foundation
 
 /*
@@ -10,12 +9,12 @@ private Stack<Integer> listSequence = new Stack<Integer>();
 private boolean partial = true;
 private boolean hardwrap = false;
 private boolean headingIds = false;
-
-public void visit(Document node) {
-    out = new StringBuffer();
-    node.childrenAccept(this);
+*/
+func visit(node: Document) {
+    out = ""
+    node.childrenAccept(self);
 }
-
+/*
 public void visit(Heading node) {
     indent();
     out.append("<h" + node.getValue());
