@@ -3,7 +3,7 @@ import Nimble
 import Quick
 import Koara
 
-class Html5Rendere: XCTestCase {
+class Html5Renderer: XCTestCase {
     
     func test()  {
     }

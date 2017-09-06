@@ -10,10 +10,16 @@ private boolean partial = true;
 private boolean hardwrap = false;
 private boolean headingIds = false;
 */
-func visit(node: Document) {
-    out = ""
-    node.childrenAccept(self);
-}
+
+public class Html5Renderer {
+
+//var out: String = ""
+
+
+//func visit(node: Document) {
+    //out = ""
+    //node.childrenAccept(self);
+//}
 /*
 public void visit(Heading node) {
     indent();
@@ -208,3 +214,5 @@ public void setHeadingIds(boolean headingIds) {
     this.headingIds = headingIds;
 }
  */
+
+}
