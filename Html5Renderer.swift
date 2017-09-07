@@ -1,25 +1,23 @@
 import Foundation
+//import Koara
 
 /*
-private StringBuffer out;
-private int level;
 private Stack<Integer> listSequence = new Stack<Integer>();
-
-// Render options
-private boolean partial = true;
-private boolean hardwrap = false;
-private boolean headingIds = false;
 */
 
 public class Html5Renderer {
 
-//var out: String = ""
+  var out: String = ""
+  var level = 0
+  var partial = false
+  var hardwrap = false;
+  var headingIds = false;
 
 
-//func visit(node: Document) {
+  //func visit(node: Document) {
     //out = ""
     //node.childrenAccept(self);
-//}
+  //}
 /*
 public void visit(Heading node) {
     indent();
