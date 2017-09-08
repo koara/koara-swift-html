@@ -1,5 +1,5 @@
 import Foundation
-//import Koara
+import Koara
 
 /*
 private Stack<Integer> listSequence = new Stack<Integer>();
@@ -13,11 +13,11 @@ public class Html5Renderer {
   var hardwrap = false;
   var headingIds = false;
 
-
-  //func visit(node: Document) {
+  func visit(node: Document) {
     //out = ""
     //node.childrenAccept(self);
-  //}
+  }
+    
 /*
 public void visit(Heading node) {
     indent();
