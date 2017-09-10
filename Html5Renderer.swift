@@ -1,5 +1,4 @@
 import Foundation
-import Koara
 
 /*
 private Stack<Integer> listSequence = new Stack<Integer>();
@@ -7,13 +6,15 @@ private Stack<Integer> listSequence = new Stack<Integer>();
 
 public class Html5Renderer {
 
-  var out: String = ""
-  var level = 0
-  var partial = false
-  var hardwrap = false;
-  var headingIds = false;
+    var out: String = ""
+    var level: Int64 = 0
+    var partial: Bool = false
+    var hardwrap: Bool = false
+    var headingIds: Bool = false
 
   func visit(node: Document) {
+    
+    
     //out = ""
     //node.childrenAccept(self);
   }

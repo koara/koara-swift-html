@@ -6,6 +6,9 @@ import Koara
 class Html5Renderer: XCTestCase {
     
     func test()  {
+        var x : Node
+        
+    
     }
     
     

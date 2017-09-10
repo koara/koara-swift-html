@@ -4,7 +4,7 @@ PODS:
   - Quick (1.1.0)
 
 DEPENDENCIES:
-  - Koara (~> 0.13)
+  - Koara
   - Nimble
   - Quick
 
@@ -13,6 +13,6 @@ SPEC CHECKSUMS:
   Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
   Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
 
-PODFILE CHECKSUM: edd290e3572792146984ed50ff2fb3b3f8582691
+PODFILE CHECKSUM: 88591c4aa8c26c77817177c3408628d9aff73644
 
 COCOAPODS: 1.2.1
