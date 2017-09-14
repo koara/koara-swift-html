@@ -18,7 +18,7 @@ public class Html5Renderer {
     }
     
     func visit(node: Heading) {
-        //indent();
+        indent()
         //out.append("<h" + node.getValue());
         //if(headingIds) {
         //    String id = "";
@@ -36,13 +36,13 @@ public class Html5Renderer {
     }
 
     func visit(node: BlockQuote) {
-        //indent();
+        indent()
         //out.append("<blockquote>");
         //if(node.getChildren() != null && node.getChildren().length > 0) { out.append("\n"); }
         //level++;
         //node.childrenAccept(this);
         //level--;
-        //indent();
+        indent()
         //out.append("</blockquote>\n");
         //if(!node.isNested()) { out.append("\n"); }
     }
@@ -51,12 +51,12 @@ public class Html5Renderer {
     func visit(node: ListBlock) {
         //listSequence.push(0);
         //String tag = node.isOrdered() ? "ol" : "ul";
-        //indent();
+        indent()
         //out.append("<" + tag + ">\n");
         //level++;
         //node.childrenAccept(this);
         //level--;
-        //indent();
+        indent()
         //out.append("</" + tag + ">\n");
         //if(!node.isNested()) { out.append("\n"); }
         //listSequence.pop();
@@ -65,7 +65,7 @@ public class Html5Renderer {
     func visit(node: ListItem) {
         //Integer seq = listSequence.peek() + 1;
         //listSequence.set(listSequence.size() - 1, seq);
-        //indent();
+        indent()
         //out.append("<li");
         //if(node.getNumber() != null && (!seq.equals(node.getNumber()))) {
             //out.append(" value=\"" + node.getNumber() + "\"");
@@ -86,7 +86,7 @@ public class Html5Renderer {
 
 
     func visit(node: CodeBlock) {
-        //indent();
+        indent()
         //out.append("<pre><code");
         //if(node.getLanguage() != null) {
             //out.append(" class=\"language-" + escape(node.getLanguage()) + "\"");
@@ -103,7 +103,7 @@ public class Html5Renderer {
         //if(node.isNested() && (node.getParent() instanceof ListItem) && node.isSingleChild()) {
             //node.childrenAccept(this);
         //} else {
-            //indent();
+            indent()
             //out.append("<p>");
             //node.childrenAccept(this);
             //out.append("</p>\n");
@@ -115,7 +115,7 @@ public class Html5Renderer {
         //if(node.isNested() && (node.getParent() instanceof ListItem) && node.isSingleChild()) {
             //node.childrenAccept(this);
         //} else {
-            //indent();
+            indent()
             //node.childrenAccept(this);
             //if(!node.isNested()) { out.append("\n"); }
         //}
