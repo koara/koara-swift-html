@@ -19,7 +19,7 @@ public class Html5Renderer {
     
     func visit(node: Heading) {
         indent()
-        //out.append("<h" + node.getValue());
+        out += "<h" + node.value
         //if(headingIds) {
         //    String id = "";
         //    for(Node n : node.getChildren()) {
@@ -29,35 +29,35 @@ public class Html5Renderer {
         //    }
         //    out.append(" id=\"" + id.toLowerCase().replace(" ", "_")  + "\"");
         //}
-        //out.append(">");
+        out += ">"
         //node.childrenAccept(this);
-        //out.append("</h" + node.getValue() + ">\n");
+        out += "</h" + node.value + ">\n"
         //if(!node.isNested()) { out.append("\n"); }
     }
 
     func visit(node: BlockQuote) {
         indent()
-        //out.append("<blockquote>");
+        out += "<blockquote>"
         //if(node.getChildren() != null && node.getChildren().length > 0) { out.append("\n"); }
         //level++;
         //node.childrenAccept(this);
         //level--;
         indent()
-        //out.append("</blockquote>\n");
+        out += "</blockquote>\n"
         //if(!node.isNested()) { out.append("\n"); }
     }
 
 
     func visit(node: ListBlock) {
         //listSequence.push(0);
-        //String tag = node.isOrdered() ? "ol" : "ul";
+        var tag: String = node.isOrdered() ? "ol" : "ul"
         indent()
-        //out.append("<" + tag + ">\n");
+        out += "<" + tag + ">\n"
         //level++;
         //node.childrenAccept(this);
         //level--;
         indent()
-        //out.append("</" + tag + ">\n");
+        out += "</" + tag + ">\n"
         //if(!node.isNested()) { out.append("\n"); }
         //listSequence.pop();
     }
@@ -66,12 +66,12 @@ public class Html5Renderer {
         //Integer seq = listSequence.peek() + 1;
         //listSequence.set(listSequence.size() - 1, seq);
         indent()
-        //out.append("<li");
+        out += "<li"
         //if(node.getNumber() != null && (!seq.equals(node.getNumber()))) {
             //out.append(" value=\"" + node.getNumber() + "\"");
             //listSequence.push(node.getNumber());
         //}
-        //out.append(">");
+        out += ">"
         //if(node.getChildren() != null) {
             //boolean block = (node.getChildren()[0].getClass() == Paragraph.class || node.getChildren()[0].getClass() == BlockElement.class);
         
@@ -81,17 +81,17 @@ public class Html5Renderer {
             //level--;
             //if(node.getChildren().length > 1 || !block) { indent(); }
         //}
-        //out.append("</li>\n");
+        out += "</li>\n"
     }
 
 
     func visit(node: CodeBlock) {
         indent()
-        //out.append("<pre><code");
+        out += "<pre><code"
         //if(node.getLanguage() != null) {
             //out.append(" class=\"language-" + escape(node.getLanguage()) + "\"");
         //}
-        //out.append(">");
+        out += ">"
         //out.append(escape(node.getValue().toString()) + "</code></pre>\n");
         //if(!node.isNested()) { out.append("\n"); }
     }
@@ -130,7 +130,7 @@ public class Html5Renderer {
     func visit(node: Link) {
         //out.append("<a href=\"" + escapeUrl(node.getValue().toString()) + "\">");
         //node.childrenAccept(this);
-        //out.append("</a>");
+        out += "</a>"
     }
  
     func visit(node: Strong) {
