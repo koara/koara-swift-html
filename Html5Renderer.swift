@@ -134,25 +134,25 @@ public class Html5Renderer {
     }
  
     func visit(node: Strong) {
-        //out.append("<strong>");
-        //node.childrenAccept(this);
-        //out.append("</strong>");
+        out += "<strong>"
+        node.childrenAccept(self);
+        out += "</strong>"
     }
     
     func visit(node: Em) {
-        //out.append("<em>");
-        //node.childrenAccept(this);
-        //out.append("</em>");
+        out += "<em>"
+        node.childrenAccept(self)
+        out += "</em>"
     }
     
     func visit(node: Code) {
-        //out.append("<code>");
+        out += "<code>"
         //node.childrenAccept(this);
-        //out.append("</code>");
+        out += "</code>"
     }
 
     func visit(node: Text) {
-        //out.append(escape(node.getValue().toString()));
+        out += escape(node.value))
     }
 
     func escape(text: String) -> String {
