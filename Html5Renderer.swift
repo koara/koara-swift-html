@@ -20,31 +20,35 @@ public class Html5Renderer {
     func visit(node: Heading) {
         indent()
         out += "<h" + node.value
-        //if(headingIds) {
-        //    String id = "";
+        if headingIds {
+            var id: String = "";
         //    for(Node n : node.getChildren()) {
         //        if(n instanceof Text) {
         //            id += n.getValue().toString();
         //        }
         //    }
         //    out.append(" id=\"" + id.toLowerCase().replace(" ", "_")  + "\"");
-        //}
+        }
         out += ">"
-        //node.childrenAccept(this);
+        node.childrenAccept(self)
         out += "</h" + node.value + ">\n"
-        //if(!node.isNested()) { out.append("\n"); }
+        if !node.isNested() {
+            out += "\n"
+        }
     }
 
     func visit(node: BlockQuote) {
         indent()
         out += "<blockquote>"
         //if(node.getChildren() != null && node.getChildren().length > 0) { out.append("\n"); }
-        //level++;
+        level += 1
         //node.childrenAccept(this);
-        //level--;
+        level -= 1
         indent()
         out += "</blockquote>\n"
-        //if(!node.isNested()) { out.append("\n"); }
+        if !node.isNested() {
+            out += "\n"
+        }
     }
 
 
@@ -53,12 +57,14 @@ public class Html5Renderer {
         var tag: String = node.isOrdered() ? "ol" : "ul"
         indent()
         out += "<" + tag + ">\n"
-        //level++;
-        //node.childrenAccept(this);
-        //level--;
+        level += 1
+        node.childrenAccept(self);
+        level -= 1
         indent()
         out += "</" + tag + ">\n"
-        //if(!node.isNested()) { out.append("\n"); }
+        if !node.isNested() {
+            out += "\n"
+        }
         //listSequence.pop();
     }
  
@@ -96,17 +102,15 @@ public class Html5Renderer {
         //if(!node.isNested()) { out.append("\n"); }
     }
     
-    
-  
 
     func visit(node: Paragraph) {
         //if(node.isNested() && (node.getParent() instanceof ListItem) && node.isSingleChild()) {
             //node.childrenAccept(this);
         //} else {
             indent()
-            //out.append("<p>");
-            //node.childrenAccept(this);
-            //out.append("</p>\n");
+            out += "<p>"
+            node.childrenAccept(self)
+            out += "</p>\n"
             //if(!node.isNested()) { out.append("\n"); }
         //}
     }
