@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Koara.h"
 
 FOUNDATION_EXPORT double KoaraVersionNumber;
 FOUNDATION_EXPORT const unsigned char KoaraVersionString[];

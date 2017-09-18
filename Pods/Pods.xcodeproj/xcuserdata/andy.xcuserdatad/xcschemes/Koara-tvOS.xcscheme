@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "352042C1F4129787C0908E0A0E457FB8"
+               BlueprintIdentifier = "861183EAF3F719610562EF958C637B75"
                BuildableName = "Koara.framework"
                BlueprintName = "Koara-tvOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "352042C1F4129787C0908E0A0E457FB8"
+            BlueprintIdentifier = "861183EAF3F719610562EF958C637B75"
             BuildableName = "Koara.framework"
             BlueprintName = "Koara-tvOS"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Koara-OSX.xcscheme</key>
+		<key>Koara-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Koara-iOS.xcscheme</key>
+		<key>Koara-macOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,12 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Nimble-OSX.xcscheme</key>
+		<key>Nimble-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Nimble-iOS.xcscheme</key>
+		<key>Nimble-macOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -64,12 +64,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Quick-OSX.xcscheme</key>
+		<key>Quick-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Quick-iOS.xcscheme</key>
+		<key>Quick-macOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -82,22 +82,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>16407F4848CA4577FEE3CEC9194B2C70</key>
+		<key>07554F313027289BE51FFC5637EA5DBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3004635B29930E084D411DA2CE640FB2</key>
+		<key>4414095BAA7001D309114F655E471B41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>352042C1F4129787C0908E0A0E457FB8</key>
+		<key>47D5B6607988EF8AA7A61ED179FE5D84</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5BD78BB1BE25D236750DB6315B42CA30</key>
+		<key>4CEFCE0114E299C85BAEDCF6F57F7D8F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,12 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A79D55E812363E55F8A938DEE696090C</key>
+		<key>861183EAF3F719610562EF958C637B75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF53571BF5E6E197369B2A353E346AED</key>
+		<key>8E8FC95CD621695C026A261E761A3F5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A79D55E812363E55F8A938DEE696090C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -127,7 +132,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D053E61DDBE60674B60B03C6CBD14ED8</key>
+		<key>C4E5813F3E0F0230FCF9A74B7B2008CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -138,11 +143,6 @@
 			<true/>
 		</dict>
 		<key>DDFB3E6E32F37907B6342145E621589C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEF74651314258A3E7C52FBAF80A463C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

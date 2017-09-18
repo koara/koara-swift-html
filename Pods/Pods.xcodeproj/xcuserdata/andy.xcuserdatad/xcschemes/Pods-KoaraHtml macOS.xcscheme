@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D053E61DDBE60674B60B03C6CBD14ED8"
+               BlueprintIdentifier = "07554F313027289BE51FFC5637EA5DBD"
                BuildableName = "Pods_KoaraHtml_macOS.framework"
                BlueprintName = "Pods-KoaraHtml macOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D053E61DDBE60674B60B03C6CBD14ED8"
+            BlueprintIdentifier = "07554F313027289BE51FFC5637EA5DBD"
             BuildableName = "Pods_KoaraHtml_macOS.framework"
             BlueprintName = "Pods-KoaraHtml macOS"
             ReferencedContainer = "container:Pods.xcodeproj">
