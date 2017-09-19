@@ -3,7 +3,7 @@ import Nimble
 import Quick
 import Koara
 
-class Html5Renderer: XCTestCase {
+class Html5RendererTest: XCTestCase {
     
    /* private Document document;
     private Parser parser;

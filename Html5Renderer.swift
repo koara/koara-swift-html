@@ -156,7 +156,7 @@ public class Html5Renderer {
     }
 
     func visit(node: Text) {
-        out += escape(node.value))
+        out += escape(node.value)
     }
 
     func escape(text: String) -> String {
