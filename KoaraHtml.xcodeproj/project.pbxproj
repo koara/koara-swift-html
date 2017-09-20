@@ -478,7 +478,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					A1B7EF9F1EAF114500234892 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -1002,6 +1002,7 @@
 		};
 		A1B7EFB21EAF114500234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48ED1A55E33E08C7F239D4DF /* Pods-KoaraHtml iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1014,7 +1015,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1052,6 +1053,7 @@
 		};
 		A1B7EFB31EAF114500234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1740B31CF873F8D1083A3 /* Pods-KoaraHtml iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1064,7 +1066,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1097,6 +1099,7 @@
 		};
 		A1B7EFB51EAF114500234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E6B3B5AC216C6D88B47891 /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1137,6 +1140,7 @@
 		};
 		A1B7EFB61EAF114500234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0BC79887FDF97C60D7DACA /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1172,6 +1176,7 @@
 		};
 		A1B7EFF11EB0EC0800234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26EACBC3C1B1D15791334D3F /* Pods-KoaraHtml macOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1222,6 +1227,7 @@
 		};
 		A1B7EFF21EB0EC0800234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C277B29FD6FA59BEAF7CB97 /* Pods-KoaraHtml macOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1266,6 +1272,7 @@
 		};
 		A1B7EFF41EB0EC0800234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3930E5E918874CF8DBCBB8 /* Pods-KoaraHtml macOS-KoaraHtml macOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1307,6 +1314,7 @@
 		};
 		A1B7EFF51EB0EC0800234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414F7D2C6C43E55DD3834AC1 /* Pods-KoaraHtml macOS-KoaraHtml macOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1342,6 +1350,7 @@
 		};
 		A1B7F04A1EB5094A00234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6927E43B171728EE8E4B49EA /* Pods-KoaraHtml tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1391,6 +1400,7 @@
 		};
 		A1B7F04B1EB5094A00234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B88736438484B091B64D6E /* Pods-KoaraHtml tvOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1435,6 +1445,7 @@
 		};
 		A1B7F04C1EB5094A00234892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D19C236CDE63803169FC78 /* Pods-KoaraHtml tvOS-KoaraHtml tvOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1474,6 +1485,7 @@
 		};
 		A1B7F04D1EB5094A00234892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFD970CF5200193716A7320 /* Pods-KoaraHtml tvOS-KoaraHtml tvOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
