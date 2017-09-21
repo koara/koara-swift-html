@@ -1,6 +1,0 @@
-framework module Pods_KoaraHtml_tvOS_KoaraHtml_tvOS_Tests {
-  umbrella header "Pods-KoaraHtml tvOS-KoaraHtml tvOS Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
