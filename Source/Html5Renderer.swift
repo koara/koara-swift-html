@@ -1,0 +1,2 @@
+class Html5Renderer {
+}
