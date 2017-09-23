@@ -1,7 +1,15 @@
+//
+//  KoaraHtmlTests.swift
+//  KoaraHtmlTests
+//
+//  Created by Andy Van Den Heuvel on 23/09/2017.
+//  Copyright © 2017 Andy Van Den Heuvel. All rights reserved.
+//
+
 import XCTest
 @testable import KoaraHtml
 
-class Html5RendererTests: XCTestCase {
+class KoaraHtmlTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
