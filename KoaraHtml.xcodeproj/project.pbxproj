@@ -10,8 +10,9 @@
 		A1DA64F81F7649E700ABB93E /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DA64EF1F7649E600ABB93E /* KoaraHtml.framework */; };
 		A1DA650C1F764B9A00ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
 		A1DA650E1F764B9A00ABB93E /* KoaraHtml.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA650B1F764B9A00ABB93E /* KoaraHtml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1DA65111F764BD200ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
 		A1DA65121F764BD200ABB93E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1DA65101F764BD200ABB93E /* Info.plist */; };
+		A1DA65131F781D2B00ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
+		A1DA65141F781D2B00ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DA650C1F764B9A00ABB93E /* Html5Renderer.swift in Sources */,
-				A1DA65111F764BD200ABB93E /* Html5RendererTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DA65131F781D2B00ABB93E /* Html5Renderer.swift in Sources */,
+				A1DA65141F781D2B00ABB93E /* Html5RendererTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
