@@ -1,0 +1,6 @@
+framework module Koara {
+  umbrella header "Koara-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632F9E7A030BBCE071E5307B /* Pods_KoaraHtml_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3ABF60AAED7AD51B6EEBC3 /* Pods_KoaraHtml_iOS.framework */; };
 		A1DA64F81F7649E700ABB93E /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DA64EF1F7649E600ABB93E /* KoaraHtml.framework */; };
 		A1DA650C1F764B9A00ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
 		A1DA650E1F764B9A00ABB93E /* KoaraHtml.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA650B1F764B9A00ABB93E /* KoaraHtml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1DA65121F764BD200ABB93E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1DA65101F764BD200ABB93E /* Info.plist */; };
 		A1DA65131F781D2B00ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
 		A1DA65141F781D2B00ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
+		D12749673F4A23A8206D7712 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62E1CDC401FE437052A6C7 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621F7E87C4395472758439D5 /* Pods-KoaraHtml iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		78C0442D06F150845127B57C /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A1DA64EF1F7649E600ABB93E /* KoaraHtml.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoaraHtml.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DA64F71F7649E700ABB93E /* KoaraHtml iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KoaraHtml iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Html5Renderer.swift; path = Source/Html5Renderer.swift; sourceTree = SOURCE_ROOT; };
@@ -33,6 +37,10 @@
 		A1DA650B1F764B9A00ABB93E /* KoaraHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KoaraHtml.h; path = Source/KoaraHtml.h; sourceTree = SOURCE_ROOT; };
 		A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Html5RendererTests.swift; path = Tests/Html5RendererTests.swift; sourceTree = SOURCE_ROOT; };
 		A1DA65101F764BD200ABB93E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		A1F3EF8C533778F3BC0DD674 /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC62E1CDC401FE437052A6C7 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A8EE6264F531391259E62D /* Pods-KoaraHtml iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FF3ABF60AAED7AD51B6EEBC3 /* Pods_KoaraHtml_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoaraHtml_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632F9E7A030BBCE071E5307B /* Pods_KoaraHtml_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +57,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1DA64F81F7649E700ABB93E /* KoaraHtml.framework in Frameworks */,
+				D12749673F4A23A8206D7712 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E6C1EE85AC1670F1D284055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				621F7E87C4395472758439D5 /* Pods-KoaraHtml iOS.debug.xcconfig */,
+				F2A8EE6264F531391259E62D /* Pods-KoaraHtml iOS.release.xcconfig */,
+				A1F3EF8C533778F3BC0DD674 /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig */,
+				78C0442D06F150845127B57C /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E511671FD400A68217518DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3ABF60AAED7AD51B6EEBC3 /* Pods_KoaraHtml_iOS.framework */,
+				BC62E1CDC401FE437052A6C7 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1DA64BD1F76456800ABB93E = {
 			isa = PBXGroup;
 			children = (
 				A1DA64C91F76456800ABB93E /* Source */,
 				A1DA64D41F76456900ABB93E /* Tests */,
 				A1DA64C81F76456800ABB93E /* Products */,
+				2E6C1EE85AC1670F1D284055 /* Pods */,
+				3E511671FD400A68217518DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,10 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1DA65001F7649E700ABB93E /* Build configuration list for PBXNativeTarget "KoaraHtml iOS" */;
 			buildPhases = (
+				F0166835D97F42D0064EF320 /* [CP] Check Pods Manifest.lock */,
 				A1DA64EA1F7649E600ABB93E /* Sources */,
 				A1DA64EB1F7649E600ABB93E /* Frameworks */,
 				A1DA64EC1F7649E600ABB93E /* Headers */,
 				A1DA64ED1F7649E600ABB93E /* Resources */,
+				2B708DC209D9CA7277F425ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1DA65031F7649E700ABB93E /* Build configuration list for PBXNativeTarget "KoaraHtml iOS Tests" */;
 			buildPhases = (
+				36077683A907F66F49E81EAD /* [CP] Check Pods Manifest.lock */,
 				A1DA64F31F7649E700ABB93E /* Sources */,
 				A1DA64F41F7649E700ABB93E /* Frameworks */,
 				A1DA64F51F7649E700ABB93E /* Resources */,
+				65C072EFE9654FCAF1B14AAE /* [CP] Embed Pods Frameworks */,
+				3A04F4601322315E4EF15B42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +238,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B708DC209D9CA7277F425ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36077683A907F66F49E81EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A04F4601322315E4EF15B42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C072EFE9654FCAF1B14AAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Koara/Koara.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koara.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0166835D97F42D0064EF320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoaraHtml iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1DA64EA1F7649E600ABB93E /* Sources */ = {
@@ -334,6 +462,7 @@
 		};
 		A1DA65011F7649E700ABB93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621F7E87C4395472758439D5 /* Pods-KoaraHtml iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -355,6 +484,7 @@
 		};
 		A1DA65021F7649E700ABB93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A8EE6264F531391259E62D /* Pods-KoaraHtml iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -375,6 +505,7 @@
 		};
 		A1DA65041F7649E700ABB93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F3EF8C533778F3BC0DD674 /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 33THKT24T3;
@@ -388,6 +519,7 @@
 		};
 		A1DA65051F7649E700ABB93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C0442D06F150845127B57C /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 33THKT24T3;

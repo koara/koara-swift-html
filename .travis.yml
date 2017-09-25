@@ -12,9 +12,9 @@ env:
 
 script:
   - if [ $RUN_TESTS == "YES" ]; then
-      travis_retry xcodebuild -scheme "$SCHEME" -destination "$DESTINATION" test;
+      travis_retry xcodebuild -workspace "KoaraHtml.xcworkspace" -scheme "$SCHEME" -destination "$DESTINATION" test;
     else
-      travis_retry xcodebuild -scheme "$SCHEME" -destination "$DESTINATION" build;
+      travis_retry xcodebuild -workspace "KoaraHtml.xcworkspace" -scheme "$SCHEME" -destination "$DESTINATION" build;
     fi
 
 after_success:
