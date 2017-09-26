@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1DA64EE1F7649E600ABB93E"
+               BlueprintIdentifier = "A1DA65411F7A01DD00ABB93E"
                BuildableName = "KoaraHtml.framework"
                BlueprintName = "KoaraHtml iOS"
                ReferencedContainer = "container:KoaraHtml.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1DA64F61F7649E700ABB93E"
+               BlueprintIdentifier = "A1DA65491F7A01DD00ABB93E"
                BuildableName = "KoaraHtml iOS Tests.xctest"
                BlueprintName = "KoaraHtml iOS Tests"
                ReferencedContainer = "container:KoaraHtml.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DA64EE1F7649E600ABB93E"
+            BlueprintIdentifier = "A1DA65411F7A01DD00ABB93E"
             BuildableName = "KoaraHtml.framework"
             BlueprintName = "KoaraHtml iOS"
             ReferencedContainer = "container:KoaraHtml.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DA64EE1F7649E600ABB93E"
+            BlueprintIdentifier = "A1DA65411F7A01DD00ABB93E"
             BuildableName = "KoaraHtml.framework"
             BlueprintName = "KoaraHtml iOS"
             ReferencedContainer = "container:KoaraHtml.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1DA64EE1F7649E600ABB93E"
+            BlueprintIdentifier = "A1DA65411F7A01DD00ABB93E"
             BuildableName = "KoaraHtml.framework"
             BlueprintName = "KoaraHtml iOS"
             ReferencedContainer = "container:KoaraHtml.xcodeproj">

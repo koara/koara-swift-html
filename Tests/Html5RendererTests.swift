@@ -1,4 +1,5 @@
 import XCTest
+import Koara
 @testable import KoaraHtml
 
 class Html5RendererTests: XCTestCase {
