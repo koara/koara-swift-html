@@ -16,8 +16,20 @@ class ComplianceTests: QuickSpec {
                     let testcase = url.lastPathComponent.substring(to: url.lastPathComponent.index(url.lastPathComponent.endIndex, offsetBy: -3))
 
                     it("KoaraToHtml_\(testcase)") {
-                        let parser = Parser()
-                    }
+                        do {
+                            let expected = testsuite.appendingPathComponent("output").appendingPathComponent("html5").appendingPathComponent(module).appendingPathComponent("\(testcase).htm")
+                            
+                            let kd = try String(contentsOf: url, encoding: .utf8)
+                            let html = try String(contentsOf: expected, encoding: .utf8)
+                            
+                            //let parser = Parser()
+                            //let document = parser.parse(kd)
+                            //let renderer = Html5Renderer()
+                            //document.accept(renderer)
+                            //expect(renderer.getOutput()).to(equal(html))
+                        } catch {
+                            fail()
+                        }                    }
                 }
             }
 

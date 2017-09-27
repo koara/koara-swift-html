@@ -1,4 +1,4 @@
-class Html5Renderer {
+public class Html5Renderer {
     
     
     func ohMy() {

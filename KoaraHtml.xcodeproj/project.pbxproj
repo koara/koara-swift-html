@@ -11,7 +11,9 @@
 		A1DA654B1F7A01DD00ABB93E /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DA65421F7A01DD00ABB93E /* KoaraHtml.framework */; };
 		A1DA65591F7A036D00ABB93E /* ComplianceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA653B1F7A00E800ABB93E /* ComplianceTests.swift */; };
 		A1DA655A1F7A036D00ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
-		A1DA655B1F7A03B400ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
+		A1DA655C1F7B4E6F00ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
+		A1DA65811F7B517100ABB93E /* KoaraHtml.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DA650B1F764B9A00ABB93E /* KoaraHtml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DA65821F7B543600ABB93E /* Html5Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */; };
 		ABA605A8B83C56144A4BC953 /* Pods_KoaraHtml_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3ABF60AAED7AD51B6EEBC3 /* Pods_KoaraHtml_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,6 +134,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DA65811F7B517100ABB93E /* KoaraHtml.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1DA655B1F7A03B400ABB93E /* Html5RendererTests.swift in Sources */,
+				A1DA655C1F7B4E6F00ABB93E /* Html5Renderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1DA65821F7B543600ABB93E /* Html5Renderer.swift in Sources */,
 				A1DA65591F7A036D00ABB93E /* ComplianceTests.swift in Sources */,
 				A1DA655A1F7A036D00ABB93E /* Html5RendererTests.swift in Sources */,
 			);
@@ -359,6 +363,7 @@
 		A1DA64D91F76456900ABB93E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -413,6 +418,7 @@
 		A1DA64DA1F76456900ABB93E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -461,7 +467,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 621F7E87C4395472758439D5 /* Pods-KoaraHtml iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 33THKT24T3;
@@ -482,7 +488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2A8EE6264F531391259E62D /* Pods-KoaraHtml iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 33THKT24T3;
