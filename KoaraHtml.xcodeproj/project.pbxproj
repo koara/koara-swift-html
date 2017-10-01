@@ -145,12 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1DA65531F7A01DD00ABB93E /* Build configuration list for PBXNativeTarget "KoaraHtml iOS" */;
 			buildPhases = (
-				64B06D10D46FCCBD990A4C5D /* [CP] Check Pods Manifest.lock */,
+				35A8DAF6AAF47A6DF5111AF1 /* [CP] Check Pods Manifest.lock */,
 				A1DA653D1F7A01DD00ABB93E /* Sources */,
 				A1DA653E1F7A01DD00ABB93E /* Frameworks */,
 				A1DA653F1F7A01DD00ABB93E /* Headers */,
 				A1DA65401F7A01DD00ABB93E /* Resources */,
-				7BC95BD20F7B9029134F128E /* [CP] Copy Pods Resources */,
+				A4AF50E20A67B7F1A9810375 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1DA65561F7A01DD00ABB93E /* Build configuration list for PBXNativeTarget "KoaraHtml iOS Tests" */;
 			buildPhases = (
-				72D3D1F471F3AD1E0DD8B0B7 /* [CP] Check Pods Manifest.lock */,
+				F4A64185D765AB3783949076 /* [CP] Check Pods Manifest.lock */,
 				A1DA65461F7A01DD00ABB93E /* Sources */,
 				A1DA65471F7A01DD00ABB93E /* Frameworks */,
 				A1DA65481F7A01DD00ABB93E /* Resources */,
-				1FA9009933AFEE0A51CF35A2 /* [CP] Embed Pods Frameworks */,
-				B87BCF800167230D89BDC481 /* [CP] Copy Pods Resources */,
+				057D6A5FD556585F66F26847 /* [CP] Embed Pods Frameworks */,
+				05873F927D0ABE56163F7554 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +240,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FA9009933AFEE0A51CF35A2 /* [CP] Embed Pods Frameworks */ = {
+		057D6A5FD556585F66F26847 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +262,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64B06D10D46FCCBD990A4C5D /* [CP] Check Pods Manifest.lock */ = {
+		05873F927D0ABE56163F7554 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35A8DAF6AAF47A6DF5111AF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,7 +295,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72D3D1F471F3AD1E0DD8B0B7 /* [CP] Check Pods Manifest.lock */ = {
+		A4AF50E20A67B7F1A9810375 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A64185D765AB3783949076 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,36 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7BC95BD20F7B9029134F128E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B87BCF800167230D89BDC481 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
