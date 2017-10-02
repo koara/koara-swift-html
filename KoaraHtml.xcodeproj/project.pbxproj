@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D9F87F0A9635EEB577AF484 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC62E1CDC401FE437052A6C7 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework */; };
+		A18622421F82C01E0045DD15 /* Koara.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18622411F82C01E0045DD15 /* Koara.framework */; };
 		A1DA654B1F7A01DD00ABB93E /* KoaraHtml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DA65421F7A01DD00ABB93E /* KoaraHtml.framework */; };
 		A1DA65591F7A036D00ABB93E /* ComplianceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA653B1F7A00E800ABB93E /* ComplianceTests.swift */; };
 		A1DA655A1F7A036D00ABB93E /* Html5RendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DA650F1F764BD200ABB93E /* Html5RendererTests.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		621F7E87C4395472758439D5 /* Pods-KoaraHtml iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS/Pods-KoaraHtml iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		78C0442D06F150845127B57C /* Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoaraHtml iOS-KoaraHtml iOS Tests/Pods-KoaraHtml iOS-KoaraHtml iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A18622411F82C01E0045DD15 /* Koara.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Koara.framework; path = "../../../Library/Developer/Xcode/DerivedData/KoaraHtml-hkkudnzdqdjekvagezpbqcjirjvx/Build/Products/Debug-iphonesimulator/Koara/Koara.framework"; sourceTree = "<group>"; };
 		A1DA65091F764B9A00ABB93E /* Html5Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Html5Renderer.swift; path = Source/Html5Renderer.swift; sourceTree = SOURCE_ROOT; };
 		A1DA650A1F764B9A00ABB93E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
 		A1DA650B1F764B9A00ABB93E /* KoaraHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KoaraHtml.h; path = Source/KoaraHtml.h; sourceTree = SOURCE_ROOT; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18622421F82C01E0045DD15 /* Koara.framework in Frameworks */,
 				ABA605A8B83C56144A4BC953 /* Pods_KoaraHtml_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +82,7 @@
 		3E511671FD400A68217518DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A18622411F82C01E0045DD15 /* Koara.framework */,
 				FF3ABF60AAED7AD51B6EEBC3 /* Pods_KoaraHtml_iOS.framework */,
 				BC62E1CDC401FE437052A6C7 /* Pods_KoaraHtml_iOS_KoaraHtml_iOS_Tests.framework */,
 			);
